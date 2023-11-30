@@ -1,1 +1,14 @@
+# Ignorar la carpeta node_modules
 node_modules/
+
+# Ignorar el archivo package.json
+package.json
+
+# Ignorar el archivo tsconfig.json
+tsconfig.json
+
+# Ignorar los archivos .js (archivos JavaScript)
+*.js
+
+# Ignorar el archivo package-lock.json
+package-lock.json
