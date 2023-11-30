@@ -24,7 +24,6 @@ function HighestandLowest(numbers:string){
                     array[j] = temp;
                 }
             }
-
     }
     return `${array[0]} ${array[array.length-1]}`;
 }
