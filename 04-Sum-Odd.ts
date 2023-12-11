@@ -5,7 +5,7 @@ function solution2(n:number):number{
     let current_lastNumber:number;
 
     for(let i = 0; i <= n; i++){
-        console.log(`Counting: ${i}`)
+        
         let tempArray:number[] = [];
         let lastOdd:number[] = [];    
        
@@ -24,9 +24,9 @@ function solution2(n:number):number{
                     current_lastNumber+=2;
                     
                         if(current_lastNumber%2!==0){
-                            console.log(`line: ${i} | currentLast: ${current_lastNumber}`);
+                            
                         tempArray.push(current_lastNumber);
-                        console.log(`adding current array: ${tempArray}`);
+                       
                         }
                         
 
@@ -40,7 +40,7 @@ function solution2(n:number):number{
                 
 
     }
-    console.log(triOdd);
+    
     sum = triOdd[n-1].reduce((accumulator,newNum)=>{
         return accumulator+=newNum;
     },0);
@@ -48,4 +48,6 @@ function solution2(n:number):number{
     return sum;
 }
 
-console.log(solution2(2));
+console.log(solution2(4));
+
+console.log(Math.pow(4, 3);
