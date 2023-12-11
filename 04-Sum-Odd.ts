@@ -1,12 +1,15 @@
 
 function solution2(n:number):number{
-    let triOdd:number[][] = [[1]];
+    let triOdd:number[][] = [];
     let sum:number = 0;
     let current_lastNumber:number;
 
-    for(let i = 1; i <= n; i++){
+    for(let i = 0; i <= n; i++){
         let tempArray:number[] = [];
-            const lastOdd = triOdd[i-1];
+        let lastOdd;    
+       
+
+           
             console.log(`last odd array: ${lastOdd}`)
                 let tempOdd = lastOdd[lastOdd.length];
                 console.log(`tempOdd: ${tempOdd}`)
