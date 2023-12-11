@@ -8,9 +8,15 @@ function solution2(n:number):number{
         let tempArray:number[] = [];
         let lastOdd;    
        
+                if(triOdd.length === 0){
+                    triOdd.push([1]);
+                    lastOdd=1;
+                }else{
+                    lastOdd = triOdd[triOdd.length];
+                }
 
-           
-            console.log(`last odd array: ${lastOdd}`)
+
+             console.log(`last odd array: ${lastOdd}`)
                 let tempOdd = lastOdd[lastOdd.length];
                 console.log(`tempOdd: ${tempOdd}`)
                 for(let j = 0; j <= i; j++){
