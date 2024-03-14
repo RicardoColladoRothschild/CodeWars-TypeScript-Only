@@ -50,4 +50,4 @@ function solution2(n:number):number{
 
 console.log(solution2(4));
 
-console.log(Math.pow(4, 3);
+console.log(Math.pow(4, 3));

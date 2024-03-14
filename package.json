@@ -14,7 +14,10 @@
   "author": "ricardo collado rothschild",
   "license": "MIT",
   "devDependencies": {
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.27"
   }
 }
